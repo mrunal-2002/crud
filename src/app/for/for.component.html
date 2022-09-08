@@ -1,0 +1,15 @@
+<p >for works!</p>
+<table>
+    <tr>
+        <th>sr.no</th>
+        <th>name</th>
+        <th>email</th>
+        <th>subject</th>
+    </tr>
+    <tr *ngFor="let student of students; let i=index;">
+        <td>{{i+1}}</td>
+        <td>{{student.name}}</td>
+        <td>{{student.email}}</td>
+        <td>{{student.subject}}</td>
+    </tr>
+</table>
